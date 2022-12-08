@@ -1,22 +1,19 @@
-Welcome to Lumache's documentation!
-===================================
+.. This is RISC-V Vector Extension Web Page.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+RISC-V Vector Extension Web Page
+================================
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   usage
-   api
+   configure
+   load_and_store
+   arith_integer
+   arith_fixed_point
+   arith_floating_point
+   arith_reduction
+   arith_mask
+   arith_permutation
+
+
