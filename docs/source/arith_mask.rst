@@ -1,7 +1,7 @@
 Vector Mask Instructions
 ========================
 
-vpopc/vcpop
+vpopc
 -----------
 
 Vector count population in mask. Counts the number of mask elements of the active elements of the vector source mask register.
@@ -112,6 +112,7 @@ Vector element index instruction. Writes each element's index to the destination
 vmandnot
 --------
 
+Vector mask-register logical operation,  vd.mask[i] = vs2.mask[i] && !vs1.mask[i].
 The previous assembler mnemonic 'vmandnot' have been changed to 'vmandn' to be consistent with the equivalent scalar instructions. The old mnemonic can be retained as assembler aliases for compatibility.
 
 ::
@@ -172,6 +173,7 @@ Vector mask-register logical operation,  vd.mask[i] = vs2.mask[i] ^^ vs1.mask[i]
 vmornot
 -------
 
+Vector mask-register logical operation,  vd.mask[i] = vs2.mask[i] || !vs1.mask[i].
 The previous assembler mnemonic 'vmornot' have been changed to 'vmorn' to be consistent with the equivalent scalar instructions. The old mnemonic can be retained as assembler aliases for compatibility.
 
 ::
